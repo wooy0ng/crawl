@@ -1,0 +1,15 @@
+name: "google"
+
+crawler:
+    type: "GoogleSelenium"
+    args: 
+        is_proxy: False
+
+query:
+    prefixs: ["접두사"]
+    postfixs: ["접미사1", "접미사2"]
+    main: [
+        "검색 내용"
+    ]
+
+
